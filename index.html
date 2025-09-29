@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Belajar bootstrap</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+    nav {
+      background-color: dimgrey;
+      background-size: auto;
+      padding: 20px;
+    }
+    body {
+      background-color: rgb(185, 185, 185);
+      background-size: cover;
+    }
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+      width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="font-family: 'Times New Roman', Times, serif;">Proweb</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tutorial
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">HTML</a></li>
+            <li><a class="dropdown-item" href="#">CSS</a></li>
+            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">PHP</a></li>
+            <li><a class="dropdown-item" href="#">MySQL</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Hubungi</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="submit">
+        <button class="btn btn-outline-dark" type="submit">Daftar</button>
+      </form>
+      <form class="d-flex" role="enter">
+        <button class="btn btn-dark" type="submit">Masuk</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col align-self-center">
+        <h2 style="font-family: UnifrakturMaguntia">Rich Superhero:BATMAN</h2>
+        <p class="my-3">Mengenal latar belakang BATMAN</p>
+      </div>
+    </div>
+    <div class="col d-none d-lg-block d-xl-block d-md-block">
+      <img src="0ef632be-4d1d-47e2-97fb-169567a9ad64.jpeg" alt="batman" width="50%">
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <br><div class="card">
+          <img src="The Batman.jpeg" class="card-img-top" alt="Logo batman">
+          <div class="card-body">
+            <p class="card-text">simbol ini digunakan oleh batman untuk menakuti para penjahat.Ia terinspirasi oleh kelelawar yang masuk ke rumahnya, lalu menjadikannya ikon.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <br><div class="card">
+          <img src="c59e3b70-1e34-499c-98d6-59b70c9bc9ab.jpeg" class="card-img-top" alt="profil batman">
+          <div class="card-body">
+            <p class="card-text">Nama aslinya <b>Bruce Wayne</b>, merupakan anak tunggal dari keluarga kaya raya di Gotham City, juga seorang pewaris perusahaan besar <b>Wayne Enterprises</b></p>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-4">
+      <br><div class="card">
+        <img src="batman3.jpeg" class="card-img-top card-img-fixed" alt="sumpah batman">
+        <div class="card-body">
+          <p class="card-text">Batman memiliki trauma masa kecil dimana ia menyaksikan orangtuany dibunuh oleh seorang perampok ketika mereka keluar dari teater.Dari trauma inilah Bruce bersumpah akan mengabdikan dirinya untuk memerangi kejahatan agar tak ada anak lain yang merasakan penderitaan seperti dirinya.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col align-self-center">
+    <a href="#" class="btn btn-outline-dark mt-2">Get start<br></a>
+  </div>
+</div>
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
